@@ -1,0 +1,25 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Leticia eu te amo",
+    "description":"Teste",
+    "duration": 180
+}
+
+###
+GET http://localhost:3333/videos
+###
+PUT http://localhost:3333/videos/f9a99597-a523-4f92-b663-e918e4118556
+Content-Type: application/json
+
+{
+    "title": "Leticia amor",
+    "description":"Esse é o primeiro vídeo.",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:3333/videos/7eff482a-60f3-48fb-badc-0419af07e4ef
+
